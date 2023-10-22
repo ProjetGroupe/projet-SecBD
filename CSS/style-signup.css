@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background-size:1328px 650px ;
+  height: 100vh;
+}
+
+.navbar{
+  width: 1325px;
+  height: 75px;
+  margin: auto;
+  position: relative;
+}
+
+.logo img {
+ float: right;
+ position: relative;
+ z-index: 100;
+ width: 100px;
+ height: auto;
+ clip-path: circle();
+ right: 50px;
+}
+.signup-box {
+  width: 380px;
+  height: 440px;
+  position: relative;
+  margin: 3% auto;
+  background-color: #fff;
+  padding:5px;
+  overflow:initial;
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.btnn{
+  width: 100%;
+  height: 40px;
+  background: #e85d04;
+  border: none;
+  margin-top: 60px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover{
+  background: #000;
+  color: #e85d04;
+}
+.btnn a{
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+.para-2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin-top: 30px;
+}
+.para-2 a {
+  color: #e85d04;
+}
+
